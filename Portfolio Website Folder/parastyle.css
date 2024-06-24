@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(224, 215, 215);
+}
+
+.container{
+    width: 80%;
+    min-height: 100vh;
+    padding: 100px 50px;
+    background-color: aliceblue;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container h1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.paras{
+    background-color: gainsboro;
+    color: rgb(21,21,21);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 30px;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+#numword{
+    padding: 20px;
+    width: 50%;
+    margin-top: 20px;
+    outline: none;
+    border: 10 px solid rgb(234,234,234);
+}
+
+button{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 17px;
+    font: 100 1.3rem sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s 
+}
+
+button:hover{
+    background-color:thistle;
+}

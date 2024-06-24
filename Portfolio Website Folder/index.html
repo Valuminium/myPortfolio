@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkButton">
+            <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo"> <a href="#" class="heading"> Portfolio  </a></label>
+        
+        <ul>
+           
+            <li><a href="#about" data-section="about" >About</a></li>
+            <li><a href="#project" data-section="project">Projects</a></li>
+            <li><a href="#contact" data-section="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <br> <br>
+        <div class="name">
+            <h1>Hi </h1>
+            <h1>I'm Vedant </h1>
+        </div>
+        <div class="loader">
+            <span>W</span>
+            <span>E</span>
+            <span>B</span>
+
+            <span>D</span>
+            <span>E</span>
+            <span>V</span>
+            <span>E</span>
+            <span>L</span>
+            <span>O</span>
+            <span>P</span>
+            <span>E</span>
+            <span>R</span>
+        </div>
+    </div>
+
+       
+<!-- Project section -->
+<section id="project">
+<div class="project-container">
+  <h1 class="section-title" style="color: rgb(255, 255, 255);">Projects</h1>  
+  <br><br>
+    <div class="project project-1">
+      <div class="project-image">
+        <img src="./Assets/DermDetect(Img).png" alt="Project 1 Image">
+      </div>
+      <div class="project-info">
+        <h3>DermDetect</h3>
+        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+          A machine learning-based model for identifying skin disorders.  <br>
+          The user needs to provide a photo of the infected skin, to see the results. <br>
+          The model is trained using Artificial Neural Network(ANN) to identify the
+          infected sites on the skin with an accuracy of about 95%. <br>
+          Achieved an accuracy rate in the model to significantly enhance diagnostic 
+          capabilities and reducing misdiagnosis rates by 40%.
+        </p>
+        <br>
+        <ul>
+          <li><a href="https://github.com/AvikshitChanda/DermDetect2" target="_blank">GitHub</a></li>
+          <li><a href="https://dermdetect16.onrender.com/" target="_blank">Live Website</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="project project-2">
+      <div class="project-info">
+        <h3>SymptoSense</h3>
+        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+            Lead model development in a team under the mentorship of Dr. Amit Pimpalkar and guided by 
+            Dr. Syed Tarique(Pulmanologist), to develop a symptom classifier using Python and NLP tools.  <br>
+            Trained the model using GloVe embeddings and Long Short-Term Memory (LSTM)-
+            based RNN to extract information from the text data with accuracy of about 97%. <br>
+            It provides a ease to the user to directly give the 
+            text about there health concern and there symptoms would be classified accordingly. 
+        </p> <br>
+        <ul>
+          <li><a href="https://github.com/TrefTone/Mini_project" target="_blank">GitHub</a></li>
+          <li><a href="#" target="_blank">Live Website</a></li>
+        </ul>
+      </div>
+      <div class="project-image">
+        <img src="./Assets/SymptoSense(Img).png" alt="Project 2 Image">
+      </div>
+    </div>
+    <!-- Add more projects here -->
+  </div> 
+</section>
+
+  <!-- About section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h1 class="section-title" style="color: aliceblue;">About Me</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./Assets/Vedant Waghale(Profile Photo).JPG" alt="Your Image" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <p>Hi there, I'm Vedant Waghale from Nagpur,Maharshtra. I'm fourth year undergrad student pursuing Computer Science
+            and Engineering with a specilization in Artificial Intelligence and Machine Learning at Shri Ramdeobaba 
+            College of Engineering Nagpur. I'm passionate about building innovative solutions, also interested in Web Development
+            domain. As it brings creativeness while building the website and also teaches to pay attention on minute details to 4
+            get successfull results. I'm always learning and improving in this field.
+          </p>
+        </div>
+      </div>
+      </div>
+  </section>
+
+  <!-- skills section -->
+  <section class="skills" id="skills">
+    <h2 class="section-title" style="color: aliceblue;">Skills</h2>
+    <div class="container">
+      <div class="row" id="skillsContainer">
+        <div class="bar">
+          <div class="info">
+            <img src="./Assets/html-5.png" alt="HTML">
+            <span>HTML</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./Assets/css.png" alt="CSS">
+            <span>CSS</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./Assets/java-script.png" alt="JavaScript">
+            <span>JavaScript</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./Assets/physics.png" alt="react js">
+            <span>React JS</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./Assets/sql-server.png" alt="sql">
+            <span>SQL</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./Assets/java.png" alt="java">
+            <span>JAVA</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./Assets/python.png" alt="python">
+            <span>Python</span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <img src="./Assets/(Nodejs).png" style="width: 150px;" alt="Node js">
+            <span>Node JS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <br><br><br><br>
+
+   <!-- Contact section -->
+   <section id="contact"> <br>
+    <h2 class="section-title" style="color: aliceblue;">Contact us</h2>
+    <div class="contact">
+      
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="heading" style="color: rgb(45, 112, 199);">Lets Get in Touch</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur ducimus velit excepturi veniam!
+                     Maxime, rerum velit,dicta repellendus ad totam beatae consequatur sed veniam 
+                     modi adipisci dolore voluptatibus iusto optio!
+                </p>
+                <div class="info">
+                    <div class="information" id="icon">
+                        <i class='fas fa-phone' style='font-size:24px'></i>
+                        <p style="color: rgb(34, 36, 37); font-size: large; padding-top:8px ;">91-8552943167</p>
+                    </div>    
+                    <div class="information" id="icon">
+                        <i class="fa fa-envelope" style="font-size:36px"></i>
+                        <p style="color: rgb(34, 36, 37); font-size: large; padding-top:8px ;">vedantwaghale@gmail.com</p>
+                    </div>
+                    <div class="information" id="icon">
+                        <i class='far fa-address-book' style='font-size:24px'></i>
+                        <p style="color: rgb(34, 36, 37); font-size: large; padding-top:8px ; ">41,42 Pawansut Enclave Ramna maruti Nagar Nagpur </p>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/vedant_waghale/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/Valuminium" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vedant-waghale-4a117624a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+               
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form id="form" name="submit-to-google-sheet" >
+                    
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" placeholder="Username">
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" placeholder="Email">
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input" placeholder="Phone">
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea  name="message" class="input" placeholder="Enter your text here"></textarea>
+                    </div>
+                    <button type="submit" value="send" class="btn">Submit</button>
+                    <span id="msg"></span>
+                </form>
+            </div>
+        </div>
+    </div>
+   </section> <br>
+
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+     <footer>
+        <div class="row">
+            <div class="col">
+                
+                <p style="font-size: xx-large;">Vedant Waghale</p>
+            </div>
+            <div class="col">
+                <h2>Contact </h2>
+                <p>Mobile: 8552943167 </p>
+                <p>Email: vedantwaghale@gmail.com</p>
+            </div>
+            <div class="col">
+                <h2>Links </h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h2>Social </h2>
+                <div class="social-icons">
+                  <a href="https://www.instagram.com/vedant_waghale/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://github.com/Valuminium" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/vedant-waghale-4a117624a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+        </div>
+
+     </footer>
+
+     <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycby2R8Zm8M3IN73E4plveqMDq3IJbQoYwuMp6Y8q6ADkzGkPOBBSWYofyv_ZugcnnXZJ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent succesfullly"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },10)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+
+</html>
+
+
+
